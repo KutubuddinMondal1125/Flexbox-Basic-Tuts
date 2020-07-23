@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+body {
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+    min-height: 100vh;
+    font-size: 20px;
+}
+.container div {
+    border: 1px solid white;
+    padding: 10px;
+    background: linear-gradient(to right, #fdfc47, #24fe41);
+    margin: 20px;
+    text-align: center;
+}
+.container div:hover {
+    background: linear-gradient(to left, #e55d87, #5fc3e4);
+}
